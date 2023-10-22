@@ -33,6 +33,4 @@ jobs:
          aws-region: us-east-1
 
      - name: Deploy to S3 bucket
-       run: aws s3 sync ./dist s3://vuejs-app-bucket-cicd
-    #  - name: Deleting files (if deleted) to S3 bucket
-    #    run: aws s3 sync . s3://vuejs-app-bucket-cicd --delete
+       run: aws s3 sync ./dist s3://ahadkhans.com
