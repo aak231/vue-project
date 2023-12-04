@@ -1,10 +1,14 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+
 </script>
 
 <template>
-  <div class="app">
-    Hello from AWS
+  <div>
+    <router-link to="/">Home</router-link>
+    
+    <router-link style="padding-left: 1rem;" to="/api">Api</router-link>
+
+    <router-view></router-view>
   </div>
 </template>
 

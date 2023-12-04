@@ -7,17 +7,25 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
+    "serve": "vue-cli-service serve"
   },
   "dependencies": {
+    "@growthbunker/vueflags": "^0.1.14",
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
     "vue": "^3.3.4",
+    "vue-country-flag": "^2.3.2",
+    "vue-country-flag-next": "^2.3.2",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.2",
+    "@types/cors": "^2.8.16",
     "@types/node": "^18.17.17",
     "@vitejs/plugin-vue": "^4.3.4",
     "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "@vue/cli-service": "^5.0.8",
     "@vue/tsconfig": "^0.4.0",
     "npm-run-all2": "^6.0.6",
     "typescript": "~5.2.0",
