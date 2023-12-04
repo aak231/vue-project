@@ -411,10 +411,6 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz#786c5f41f043b07afb1af37683d7c33668858f6d"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
-"@growthbunker/vueflags@^0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@growthbunker/vueflags/-/vueflags-0.1.14.tgz#a4e756789c4e7c258c4bb82ebf5736c9549db5cb"
-  integrity sha512-iw0r5QIHV9j2YDLf71m0RsZPIueVwGyBlYfqtzHZUtXJq+uBYERSmpZeTeGh6XhwFR63aIvOITvq6hRHBxdXLw==
 
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
@@ -4868,10 +4864,6 @@ vue-country-flag-next@^2.3.2:
   resolved "https://registry.yarnpkg.com/vue-country-flag-next/-/vue-country-flag-next-2.3.2.tgz#c35d283f83b7631be414c720391a8363991557c2"
   integrity sha512-Lv12L1VTwlBgizpZ3xPEPO3zuIETaJmeSiPuLOWLLgu2EakwU/o72iKYiKcdZ6BXiSkfss+Ski5fDzjuxZ1DcA==
 
-vue-country-flag@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/vue-country-flag/-/vue-country-flag-2.3.2.tgz#db500a8ee287675b2990360b6fa100cdf7d444c2"
-  integrity sha512-YhSS+GbLT9tp8tjMXxJKlqpBUd6dbhQJrttKj8ZbHtBocorIomFDMVMxraWVMs3hxaCW6SsAYaREkoYM00ORiA==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"

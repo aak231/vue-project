@@ -15,7 +15,6 @@
     "axios": "^1.5.1",
     "cors": "^2.8.5",
     "vue": "^3.3.4",
-    "vue-country-flag": "^2.3.2",
     "vue-country-flag-next": "^2.3.2",
     "vue-router": "^4.2.4"
   },
