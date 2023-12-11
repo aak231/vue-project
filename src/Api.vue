@@ -8,6 +8,7 @@
       <p>Location: {{ responseData.location }}</p>
       <!-- Display flag based on the country code -->
       <vue-country-flag :country="responseData.location" size='big' />
+      <p>All via Terraform!</p>
     </div>
   </div>
 </template>
@@ -26,7 +27,7 @@ const getData = async () => {
 
 const fetchData = async (): Promise<{ clientIp: string, location: string } | null> => {
   try {
-    const response = await axios.get("https://ow9795yfej.execute-api.us-east-1.amazonaws.com");
+    const response = await axios.get("https://locationapi.ahadkhans.com/");
     return {
       clientIp: response.data.clientIp,
       location: response.data.country,
