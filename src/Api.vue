@@ -38,3 +38,4 @@ const fetchData = async (): Promise<{ clientIp: string, location: string } | nul
   }
 };
 </script>
+
