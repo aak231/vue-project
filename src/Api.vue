@@ -26,7 +26,7 @@ const getData = async () => {
 
 const fetchData = async (): Promise<{ clientIp: string, location: string } | null> => {
   try {
-    const response = await axios.get("https://aux9nri9h5.execute-api.us-east-1.amazonaws.com/default/myLocationDetector");
+    const response = await axios.get("https://ow9795yfej.execute-api.us-east-1.amazonaws.com");
     return {
       clientIp: response.data.clientIp,
       location: response.data.country,
