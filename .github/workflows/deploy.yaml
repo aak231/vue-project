@@ -25,6 +25,7 @@ jobs:
      - name: Build static Vue project
        run: npm run build
 
+       
      - name: Configure AWS Credentials
        uses: aws-actions/configure-aws-credentials@v4
        with:
